@@ -18,11 +18,98 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
-        "cells": []
+        "cells": [
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "TB1 Internet | Hosted portal",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "TB1 Internet | Hosted portal"
+            ],
+            "id": "b9c87bb2-8744-4e8b-aee7-958eab4db7f7",
+            "source": {
+              "x": 400,
+              "y": 30
+            },
+            "target": {
+              "x": 400,
+              "y": 660
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "8cf9d846-a747-43c0-96a9-834ca8a6381c",
+            "source": {
+              "x": 780,
+              "y": 30
+            },
+            "target": {
+              "x": 780,
+              "y": 670
+            },
+            "vertices": []
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "TB3 Office | Volunteer phones",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "TB3 Office | Volunteer phones"
+            ],
+            "id": "72a39dc3-bb6c-4873-b7c4-242ff4d951f2",
+            "source": {
+              "x": 720,
+              "y": 470
+            },
+            "target": {
+              "x": 1020,
+              "y": 470
+            },
+            "vertices": []
+          }
+        ]
       }
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 3
   }
 }
